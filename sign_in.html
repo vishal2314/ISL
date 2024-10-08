@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<style>
+    body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height:250px;
+    background-color: white;
+}
+.content{
+    background-color: grey;
+    width: 250px;
+    height:250px;
+    
+}
+.content:hover{
+    border: 5px dotted red;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: blue;
+}
+h2{
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    size: 200px;
+}
+.links{
+    margin:auto;
+    margin-top: 10px;
+    align-items: self-end;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+button{
+    background-color:aqua;
+    color:black;
+}
+button:hover{
+    background-color: burlywood;
+}
+
+</style>
+<body>
+    <div class="signin">
+        <div class="content">
+            <h2>Sign In</h2>
+            <div class="form">
+                <div class="inputBox">
+                <input type="text" placeholder="Username">
+                </div>      
+                <div class="inputBox">       
+                <input type="password" placeholder="Password">
+                </div>       
+                <div class="links">
+                <a href="forget_password.html"><button>Forget Password</button></a>   
+                <a href="sign_up.html"><button>Sign up</button></a>      
+                </div>   
+                <div class="inputBox">   
+                    <a href="main.html"><input type="submit" value="Login"></a>  
+                    
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

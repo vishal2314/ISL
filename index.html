@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISL</title>
+</head>
+<style>
+    body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2f3542;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin {
+    background-color: black;
+    height: 240px;
+    width: 250px;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.content {
+    background-color: #21523e; /* Darker green color for the content */
+    height: 80px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent; /* Use solid border for consistency */
+    border-radius: 5px; /* Rounded corners for content */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.content:hover {
+    border-color: #ff6b81; /* Change border color on hover */
+    background-color: #b7729b; /* Lighter purple color on hover */
+}
+</style>
+<body>
+    <div class="signin">
+        <div class="content">
+            <a href="sign_in.html"><h2>Admin</h2></a>
+        </div>
+        <div class="content">
+            <a href="sign_in.html"><h2>Sign in</h2></a>
+        </div>
+        <div class="content">
+            <a href="sign_in.html"><h2>As a Guest</h2></a>
+        </div>
+    </div>
+</body>
+</html>
